@@ -180,7 +180,7 @@
 (defun splash-screen-fade-to-about ()
   (interactive) (splash-screen-fade-to 1 1.0))
 (defun splash-screen-fade-to-default ()
-  (interactive) (splash-screen-fade-to nil 0.25))
+  (interactive) (splash-screen-fade-to 1 1.0))
 
 (defun splash-screen-kill ()
   "Kill the splash screen buffer (immediately)."
